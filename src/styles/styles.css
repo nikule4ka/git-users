@@ -1,0 +1,81 @@
+.container_users {
+  padding-top: 30px;
+}
+
+.users_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 0fr);
+  grid-gap: 18px;
+}
+
+.link_user {
+  text-decoration: none;
+}
+
+.users_img {
+  height: 100px;
+}
+
+.user_login {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+.user {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0 0 0 / 20%);
+  padding: 10px;
+}
+
+.user:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 14px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.container_user_details {
+  margin: 20px;
+  display: flex;
+}
+.container_text {
+  margin-left: 30px;
+}
+
+.user_details_login {
+  font-size: 34px;
+  color: black;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.user_follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_created {
+  padding-top: 20px;
+}
+
+.user_font {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.user_follow_text {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.user_following {
+  padding-left: 5px;
+}
